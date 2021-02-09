@@ -1,0 +1,637 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+
+  .work {
+    .workTitle {
+      text-align: center;
+      margin-top: 150px;
+
+      h1 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 1.244em;
+      }
+      p {
+        width: 55%;
+        opacity: 0.9;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.7;
+        margin: auto;
+        margin-bottom: 1.3em;
+      }
+    }
+
+    .project1 {
+      height: 110vh;
+      margin-top: 200px;
+      background-image: url("../../Assets/work_assets/project1bg.jpg");
+      background-size: cover;
+      display: flex;
+      .project1Text {
+        margin-left: 7%;
+        margin-top: 170px;
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin-bottom: 1.3em;
+        }
+        button {
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project1Pic {
+        margin-top: 70px;
+        img {
+          height: 600px;
+          width: 750px;
+        }
+      }
+    }
+
+    .project2 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project2bg.jpg");
+      background-size: cover;
+      display: flex;
+      .project2Text {
+        margin-left: 7%;
+        margin-top: 170px;
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin-bottom: 1.3em;
+        }
+        button {
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project2Pic {
+        margin-top: 70px;
+        img {
+          height: 600px;
+          width: 750px;
+        }
+      }
+    }
+
+    .project3 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project3bg.jpg");
+      background-size: cover;
+      display: flex;
+      .project3Text {
+        margin-left: 7%;
+        margin-top: 170px;
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin-bottom: 1.3em;
+        }
+        button {
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project3Pic {
+        margin-top: 70px;
+        img {
+          height: 600px;
+          width: 750px;
+        }
+      }
+    }
+
+    .project4 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project4bg.jpg");
+      background-size: cover;
+      display: flex;
+      .project4Text {
+        margin-left: 7%;
+        margin-top: 170px;
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin-bottom: 1.3em;
+        }
+        button {
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project4Pic {
+        margin-top: 70px;
+        img {
+          height: 600px;
+          width: 750px;
+        }
+      }
+    }
+
+    .project5 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project5bg.jpg");
+      background-size: cover;
+      display: flex;
+      .project5Text {
+        margin-left: 7%;
+        margin-top: 170px;
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin-bottom: 1.3em;
+        }
+        button {
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project5Pic {
+        margin-top: 70px;
+        img {
+          height: 600px;
+          width: 700px;
+        }
+      }
+    }
+
+    .project6 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project6bg.jpg");
+      background-size: cover;
+      display: flex;
+      .project6Text {
+        margin-left: 7%;
+        margin-top: 170px;
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin-bottom: 1.3em;
+        }
+        button {
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project6Pic {
+        margin-top: 70px;
+        img {
+          height: 600px;
+          width: 750px;
+        }
+      }
+    }
+
+    .bottomButton {
+      margin: 90px auto;
+      text-align: center;
+
+      button {
+        color: #fff;
+        font-size: 13px;
+        background: #5174fd;
+        font-weight: 700;
+        letter-spacing: 0.1em !important;
+        border-radius: 3px;
+        box-shadow: none;
+        border: 0;
+        padding: 0.85em 1.5em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .work {
+    .workTitle {
+      text-align: center;
+      margin-top: 150px;
+
+      h1 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 1.244em;
+      }
+      p {
+        width: 80%;
+        opacity: 0.9;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.7;
+        margin: auto;
+        margin-bottom: 1.3em;
+      }
+    }
+
+    .project1 {
+      height: 110vh;
+      margin-top: 200px;
+      background-image: url("../../Assets/work_assets/project1bg.jpg");
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse !important;
+      text-align: center;
+      .project1Text {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin: auto;
+        }
+        button {
+          height: 55px;
+          width: 200px;
+
+          background-color: #fff;
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          margin-top: 1.5em;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project1Pic {
+        margin-top: 70px;
+        img {
+          height: 400px;
+          width: 400px;
+        }
+      }
+    }
+
+    .project2 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project2bg.jpg");
+      background-size: cover;
+      display: block;
+      flex-direction: row-reverse !important;
+      text-align: center;
+      .project2Text {
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin: auto;
+        }
+        button {
+          margin-top: 1.5em;
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project2Pic {
+        img {
+          margin-top: 50px;
+          height: 400px;
+          width: 380px;
+        }
+      }
+    }
+
+    .project3 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project3bg.jpg");
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse !important;
+      text-align: center;
+      .project3Text {
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin: auto;
+        }
+        button {
+          margin-top: 1.5em;
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project3Pic {
+        margin-top: 50px;
+        img {
+          height: 400px;
+          width: 390px;
+        }
+      }
+    }
+
+    .project4 {
+      height: 100vh;
+      background-image: url("../../Assets/work_assets/project4bg.jpg");
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse !important;
+      text-align: center;
+      .project4Text {
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin: auto;
+        }
+        button {
+          margin-top: 1.5em;
+          margin-bottom: 3em;
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project4Pic {
+        img {
+          height: 400px;
+          width: 400px;
+        }
+      }
+    }
+
+    .project5 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project5bg.jpg");
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse !important;
+      text-align: center;
+      .project5Text {
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin: auto;
+        }
+        button {
+          margin-top: 1.5em;
+
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project5Pic {
+        margin-top: 70px;
+        img {
+          height: 400px;
+          width: 360px;
+        }
+      }
+    }
+
+    .project6 {
+      height: 110vh;
+      background-image: url("../../Assets/work_assets/project6bg.jpg");
+      background-size: cover;
+      display: flex;
+      flex-direction: column-reverse !important;
+      text-align: center;
+      .project6Text {
+        h2 {
+          color: white;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 1.285em;
+          margin-top: 1.5rem !important;
+          margin-bottom: 1.5rem !important;
+        }
+        p {
+          color: white;
+          width: 80%;
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin: auto;
+        }
+        button {
+          margin-top: 1.5em;
+          margin-bottom: 2rem;
+          font-size: 14px !important;
+          line-height: 1.75em !important;
+          letter-spacing: 0.1em !important;
+          font-weight: 600;
+          color: black;
+          border: none;
+          border-radius: 2px;
+          height: 55px;
+          width: 200px;
+          padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+      }
+      .project6Pic {
+        img {
+          height: 400px;
+          width: 360px;
+        }
+      }
+    }
+
+    .bottomButton {
+      margin: 90px auto;
+      text-align: center;
+
+      button {
+        color: #fff;
+        font-size: 13px;
+        background: #5174fd;
+        font-weight: 700;
+        letter-spacing: 0.1em !important;
+        border-radius: 3px;
+        box-shadow: none;
+        border: 0;
+        padding: 0.85em 1.5em;
+      }
+    }
+  }
+}

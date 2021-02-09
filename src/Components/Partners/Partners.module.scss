@@ -1,0 +1,77 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+
+  .Partners {
+    height: 90vh;
+    margin-top: 130px;
+    background: linear-gradient(to bottom, #f1f4f9 0, transparent 100%);
+    h1 {
+      width: 40%;
+      margin: auto;
+      padding-top: 100px;
+      text-align: center;
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 1.285em;
+    }
+    .PartnersSections {
+      margin-top: 50px;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      section {
+        img {
+          width: 150px;
+          height: 150px;
+        }
+
+        h5 {
+          font-size: 20px;
+          margin: 0 0 0.7em;
+          line-height: 1.5em;
+          font-weight: 600;
+          width: 99%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .Partners {
+    height: 90vh;
+    margin-top: 130px;
+    background: linear-gradient(to bottom, #f1f4f9 0, transparent 100%);
+    h1 {
+      width: 100%;
+      margin: auto;
+      padding-top: 20px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 1.285em;
+    }
+    .PartnersSections {
+      margin-top: 50px;
+      text-align: center;
+      justify-content: space-around;
+      display: grid !important;
+      grid-template-columns: repeat(2, 180px);
+      section {
+        img {
+          width: 130px;
+          height: 130px;
+        }
+
+        h5 {
+          font-size: 17px;
+          margin: 0 0 0.7em;
+          line-height: 1.5em;
+          font-weight: 600;
+          width: 99%;
+        }
+      }
+    }
+  }
+}

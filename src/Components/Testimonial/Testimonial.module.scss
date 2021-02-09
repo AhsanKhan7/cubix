@@ -1,0 +1,109 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .testimonial {
+    height: 85vh;
+    background: linear-gradient(to top, #f1f4f9 0, transparent 100%) !important;
+    margin: auto;
+
+    margin-top: 150px;
+    .testimonialStart {
+      width: 60%;
+      text-align: center;
+      margin: auto;
+      h1 {
+        font-weight: 700;
+        line-height: 1.285em;
+        width: 120%;
+        margin: 3rem auto;
+        margin-left: -70px;
+      }
+      .testimonialSection {
+        h4 {
+          font-weight: 700;
+          line-height: 1.5;
+          font-size: 23px;
+          margin: auto;
+        }
+        h5 {
+          font-size: 22px;
+          font-weight: 600;
+          line-height: 1.35em;
+          margin: 0.6em 0.75em;
+        }
+        p {
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin: 0 0 10px;
+        }
+      }
+      .testimonialBottom {
+        margin-top: 30px !important;
+        span:nth-child(2) {
+          color: blue;
+          margin-right: 20px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        span:nth-child(3) {
+          font-weight: 400;
+          border-left: 1px solid gray;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .testimonial {
+    height: 100vh;
+    background: linear-gradient(to top, #f1f4f9 0, transparent 100%) !important;
+    margin: auto;
+
+    margin-top: 150px;
+    .testimonialStart {
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.285em;
+      }
+      .testimonialSection {
+        margin-top: 50px;
+        h4 {
+          font-weight: 700;
+          line-height: 1.5;
+          font-size: 16px;
+          margin: auto;
+        }
+        h5 {
+          font-size: 22px;
+          font-weight: 600;
+          line-height: 1.35em;
+          margin: 0.6em 0.75em;
+        }
+        p {
+          line-height: 1.7;
+          font-size: 1.2em;
+          margin: 0 0 10px;
+        }
+      }
+      .testimonialBottom {
+        margin-top: 30px !important;
+        span:nth-child(2) {
+          color: blue;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        span:nth-child(3) {
+          font-weight: 400;
+          border-left: 1px solid gray;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
