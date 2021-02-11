@@ -1,0 +1,49 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .about {
+    .aboutVideo {
+      height: 10vh !important;
+      video {
+        // height: 100vh !important;
+        width: 100%;
+      }
+    }
+    .aboutVideoText {
+      position: absolute;
+      top: 0%;
+      padding-left: 6%;
+      padding-top: 15%;
+      background-color: rgba(0, 0, 255, 0.3);
+      height: 115vh;
+      h1 {
+        margin-bottom: 30px;
+        color: white;
+        font-size: 40px;
+        font-weight: 600;
+      }
+
+      p {
+        margin-bottom: 30px;
+        color: white;
+        font-size: 20px;
+        width: 44%;
+      }
+      button {
+        color: #000;
+        background-color: #f88379 !important;
+        border: none;
+        border-radius: 7px;
+        padding: 15px 40px;
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+}
