@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./About.module.scss";
-
+import Testimonial from "../../Components/Testimonial/Testimonial";
 import aboutVideo from "../../Assets/cubix-video.webm";
+import Footer from "../../Components/Footer/Footer";
 
 const About = () => {
   return (
@@ -194,7 +195,94 @@ const About = () => {
         <div className={styles.ceoPic}>
           <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/salman-lakhani-ceo-cubixinc.jpg" />
         </div>
+
+        <div className={styles.headQuater}>
+          <h2>Headquartered in west palm beach, florida</h2>
+          <p>
+            Cubix has maintained an unbroken record of successful custom
+            software architecture and development since 2008, across startups,
+            enterprises, and Fortune 500 Companies, including PayPal, Tissot,
+            Estee Lauder, Politico, Walmart, Sapient, and Canon.
+          </p>
+
+          <div className={styles.headQuaterPic}>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/politico.png" />
+            </section>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/bigfish-logo.png" />
+            </section>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/walmart.png" />
+            </section>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/tissot-logo-1.png" />
+            </section>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/sapient-logo-1.png" />
+            </section>
+          </div>
+          <div className={styles.headQuaterPic}>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/dreamworks-logo.png" />
+            </section>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/canon-logo-1.png" />
+            </section>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/datastream.png" />
+            </section>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/artizone-logo.png" />
+            </section>
+            <section>
+              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/whitecastle-logo.png" />
+            </section>
+          </div>
+        </div>
+
+        <div className={styles.liveOffice}>
+          <h2>Live from our office</h2>
+          <p>
+            Talent wins games, but teamwork and intelligence wins championships
+          </p>
+
+          <div className={styles.liveOfficeVideo}>
+            <section>
+              <iframe
+                width="360"
+                height="300"
+                src="https://www.youtube.com/embed/OjhGYfKQzDY"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </section>
+            <section>
+              <iframe
+                width="360"
+                height="300"
+                src="https://www.youtube.com/embed/NNImZnlhnN8"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </section>
+            <section>
+              <iframe
+                width="360"
+                height="300"
+                src="https://www.youtube.com/embed/W_83Svhs_UA"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </section>
+          </div>
+        </div>
+        <Testimonial />
       </div>
+      <Footer />
     </div>
   );
 };

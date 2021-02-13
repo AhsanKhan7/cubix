@@ -10,6 +10,7 @@ import blockchain from "../../Assets/blockchain.svg";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 import Awards from "../../Components/Awards/Awards";
 import Partners from "../../Components/Partners/Partners";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -228,6 +229,7 @@ const Home = () => {
       {/* partners */}
       <Partners />
       {/* home end */}
+      <Footer />
     </div>
   );
 };

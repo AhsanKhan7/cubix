@@ -233,6 +233,55 @@
         height: 100vh;
       }
     }
+    .headQuater {
+      margin-bottom: 50px;
+      h2 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.285em;
+        margin: 1.25em 0 0.75em;
+      }
+      p {
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.7;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+      }
+    }
+    .headQuaterPic {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 150px;
+        height: 130px;
+      }
+    }
+    .liveOffice {
+      background: #f4f5f8 !important;
+      padding-bottom: 50px;
+      h2 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.285em;
+        padding-top: 50px;
+        margin-bottom: 0px;
+      }
+      p {
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.7;
+        font-size: 1.2em;
+        margin-bottom: 50px;
+      }
+
+      .liveOfficeVideo {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
   }
 }
 

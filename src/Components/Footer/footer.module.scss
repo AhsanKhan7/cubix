@@ -1,8 +1,58 @@
 @media only screen and (min-width: 768px) {
-    // FOR DESKTOP AND TABLET
+  // FOR DESKTOP AND TABLET
+
+  .footer {
+    .footerText {
+      text-align: center;
+      h2 {
+        width: 70%;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.285em;
+        padding-top: 50px;
+        margin-bottom: 0px;
+        margin: auto;
+      }
+      button {
+        margin-top: 50px;
+        padding: 1.15em 2.1em;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        line-height: 1.42857143;
+        background-color: #4869e8;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+    .footerLocation {
+      display: flex;
+      width: 80%;
+      margin: auto;
+      section {
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      p {
+        width: 60%;
+        font-size: 14px !important;
+        line-height: 1.7;
+        margin-bottom: 1.3em;
+        color: #808291;
+      }
+      h6 {
+        width: 200%;
+        font-size: 14px !important;
+        line-height: 1.7;
+        margin-bottom: 1.3em;
+        color: #808291;
+      }
+    }
+  }
 }
 @media only screen and (max-width: 767px) {
-    /* phones */
-  
-    //   write css here
+  /* phones */
+
+  //   write css here
 }
