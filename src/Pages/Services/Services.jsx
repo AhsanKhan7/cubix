@@ -14,9 +14,7 @@ const Services = () => {
   return (
     <div className={styles.service}>
       <div className={styles.serviceTop}>
-        <section>
-          <img src={serviceBackground} alt="bgImage" />
-        </section>
+        <section>{/* <img src={serviceBackground} alt="bgImage" /> */}</section>
         <section className={styles.serviceTopText}>
           <h1>World-class software solutions for business across the globe.</h1>
           <p>Design. Development. Consultancy.</p>
