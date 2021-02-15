@@ -28,16 +28,19 @@
     }
     .footerLocation {
       display: flex;
-      width: 80%;
+      justify-content: space-around;
+      width: 85%;
       margin: auto;
       section {
-        margin-top: 30px;
+        margin-top: 70px;
         margin-bottom: 10px;
+        width: 250px;
       }
       p {
         width: 60%;
         font-size: 14px !important;
         line-height: 1.7;
+        margin-top: 10px;
         margin-bottom: 1.3em;
         color: #808291;
       }
@@ -45,14 +48,111 @@
         width: 200%;
         font-size: 14px !important;
         line-height: 1.7;
+        margin-top: 10px;
         margin-bottom: 1.3em;
         color: #808291;
+      }
+    }
+    .bottomFooter {
+      margin-top: 30px;
+
+      hr {
+        border-top: 1px solid lightgrey;
+      }
+
+      .bottomFooter1 {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        span {
+          color: blue;
+        }
+        i {
+          color: blue;
+          width: 30px;
+        }
       }
     }
   }
 }
 @media only screen and (max-width: 767px) {
   /* phones */
+  .footer {
+    .footerText {
+      text-align: center;
+      h2 {
+        width: 90%;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.285em;
+        padding-top: 50px;
+        margin-bottom: 0px;
+        margin: auto;
+      }
+      button {
+        margin-top: 50px;
+        padding: 1.15em 2.1em;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        line-height: 1.42857143;
+        background-color: #4869e8;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+    .footerLocation {
+      display: block;
+      justify-content: space-around;
+      width: 85%;
+      margin: auto;
+      section {
+        margin-top: 70px;
+        margin-bottom: 10px;
+        width: 250px;
+      }
+      p {
+        width: 60%;
+        font-size: 14px !important;
+        line-height: 1.7;
+        margin-top: 10px;
+        margin-bottom: 1.3em;
+        color: #808291;
+      }
+      h6 {
+        width: 200%;
+        font-size: 14px !important;
+        line-height: 1.7;
+        margin-top: 10px;
+        margin-bottom: 1.3em;
+        color: #808291;
+      }
+    }
+    .bottomFooter {
+      margin-top: 30px;
 
-  //   write css here
+      hr {
+        border-top: 1px solid lightgrey;
+      }
+
+      .bottomFooter1 {
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+        span {
+          color: blue;
+        }
+        i {
+          color: blue;
+          width: 30px;
+        }
+      }
+    }
+  }
 }

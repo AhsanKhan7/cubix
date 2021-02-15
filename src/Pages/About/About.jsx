@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./About.module.scss";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 import aboutVideo from "../../Assets/cubix-video.webm";
-import Footer from "../../Components/Footer/Footer";
 
 const About = () => {
   return (
@@ -282,7 +281,6 @@ const About = () => {
         </div>
         <Testimonial />
       </div>
-      <Footer />
     </div>
   );
 };

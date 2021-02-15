@@ -37,6 +37,24 @@ const Footer = () => {
           <h6>Blockchain App Development</h6>
         </section>
       </div>
+
+      <div className={styles.bottomFooter}>
+        <hr />
+        <div className={styles.bottomFooter1}>
+          <section>
+            <p>
+              © 2021 Cubix. All Rights Reserved.{" "}
+              <span>Terms of Use. Privacy Policy.</span>
+            </p>
+          </section>
+          <section>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-dribbble"></i>
+          </section>
+        </div>
+      </div>
     </div>
   );
 };
