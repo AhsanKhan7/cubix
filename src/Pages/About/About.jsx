@@ -3,9 +3,13 @@ import styles from "./About.module.scss";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 import aboutVideo from "../../Assets/cubix-video.webm";
 
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
+
 const About = () => {
   return (
     <div className={styles.about}>
+      <Header />
       <div>
         <section className={styles.aboutVideo}>
           <video src={aboutVideo} autoPlay={true} loop={true} />
@@ -281,6 +285,7 @@ const About = () => {
         </div>
         <Testimonial />
       </div>
+      <Footer />
     </div>
   );
 };

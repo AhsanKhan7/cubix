@@ -8,9 +8,13 @@ import project4Pic from "../../Assets/work_assets/project4.jpg";
 import project5Pic from "../../Assets/work_assets/project5.jpg";
 import project6Pic from "../../Assets/work_assets/project6.jpg";
 
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
+
 const Work = () => {
   return (
     <div className={styles.work}>
+      <Header />
       <section className={styles.workTitle}>
         <h1>Our portfolio</h1>
         <p>
@@ -110,6 +114,7 @@ const Work = () => {
       <div className={styles.bottomButton}>
         <button>LOAD MORE</button>
       </div>
+      <Footer />
     </div>
   );
 };
