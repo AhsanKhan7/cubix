@@ -10,14 +10,16 @@ import blockchain from "../../Assets/blockchain.svg";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 import Awards from "../../Components/Awards/Awards";
 import Partners from "../../Components/Partners/Partners";
-
+import Tabs from "../../Components/Tabs/Tabs";
 import Header from "../../Components/Header/Header";
+import SideNav from "../../Components/Header/SideNav/SideNav";
 import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
     <div className={styles.home}>
       <Header />
+      <SideNav />
       <section className={styles.frontBanner}>
         <section>
           <img src={FrontPic1} />
@@ -227,6 +229,8 @@ const Home = () => {
       </section>
       {/* testimonail */}
       <Testimonial />
+      {/* tabs */}
+      <Tabs />
       {/* awards */}
       <Awards />
       {/* partners */}

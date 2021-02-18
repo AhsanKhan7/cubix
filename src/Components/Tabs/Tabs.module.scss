@@ -1,0 +1,83 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+
+  .tabs {
+    text-align: center;
+
+    h2 {
+      margin-top: 80px;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.285em;
+    }
+
+    .tabCont {
+      margin-top: 40px;
+      .tabNav {
+        text-align: center;
+        justify-content: center;
+        border: none;
+      }
+      .tabNavLink {
+        border: none;
+        color: black;
+      }
+    }
+
+    .tab {
+      div {
+        width: 60%;
+        margin: 30px auto 0 auto;
+        display: flex;
+        justify-content: space-around;
+
+        p {
+          margin-top: 10px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .tabs {
+    text-align: center;
+
+    h2 {
+      margin-top: 80px;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 1.285em;
+    }
+
+    .tabCont {
+      margin-top: 40px;
+      .tabNav {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        border: none;
+      }
+      .tabNavLink {
+        border: none;
+        color: black;
+      }
+    }
+
+    .tab {
+      div {
+        margin: 30px auto 0 auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        p {
+          margin-top: 10px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

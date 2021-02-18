@@ -11,12 +11,14 @@ import project3Pic from "../../Assets/service-page-three.jpg";
 import project4Pic from "../../Assets/service-page-four.jpg";
 
 import Header from "../../Components/Header/Header";
+import SideNav from "../../Components/Header/SideNav/SideNav";
 import Footer from "../../Components/Footer/Footer";
 
 const Services = () => {
   return (
     <div className={styles.service}>
       <Header />
+      <SideNav />
       <div className={styles.serviceTop}>
         <section>{/* <img src={serviceBackground} alt="bgImage" /> */}</section>
         <section className={styles.serviceTopText}>

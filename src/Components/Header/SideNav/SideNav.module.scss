@@ -1,0 +1,54 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+
+  .sideNav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .sideNav {
+    position: sticky;
+    opacity: 1;
+    z-index: 2;
+    .header {
+      width: 100%;
+      background-color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+
+      .menuButton {
+        cursor: pointer;
+      }
+    }
+
+    .sideNavBottom {
+      height: 100vh;
+      background-color: white;
+      top: 0;
+      left: 0;
+      .headerBottom {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .menuButton {
+          cursor: pointer;
+        }
+      }
+
+      .links {
+        text-align: center;
+        margin-top: 40px;
+
+        h6 {
+          color: black;
+        }
+      }
+    }
+  }
+}

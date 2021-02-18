@@ -4,12 +4,14 @@ import Testimonial from "../../Components/Testimonial/Testimonial";
 import aboutVideo from "../../Assets/cubix-video.webm";
 
 import Header from "../../Components/Header/Header";
+import SideNav from "../../Components/Header/SideNav/SideNav";
 import Footer from "../../Components/Footer/Footer";
 
 const About = () => {
   return (
     <div className={styles.about}>
       <Header />
+      <SideNav />
       <div>
         <section className={styles.aboutVideo}>
           <video src={aboutVideo} autoPlay={true} loop={true} />

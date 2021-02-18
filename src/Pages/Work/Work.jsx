@@ -9,12 +9,14 @@ import project5Pic from "../../Assets/work_assets/project5.jpg";
 import project6Pic from "../../Assets/work_assets/project6.jpg";
 
 import Header from "../../Components/Header/Header";
+import SideNav from "../../Components/Header/SideNav/SideNav";
 import Footer from "../../Components/Footer/Footer";
 
 const Work = () => {
   return (
     <div className={styles.work}>
       <Header />
+      <SideNav />
       <section className={styles.workTitle}>
         <h1>Our portfolio</h1>
         <p>
