@@ -51,6 +51,10 @@ const SideNav = () => {
               <h4>Services</h4>
             </Link>
             <hr />
+            <Link to="/">
+              <h4>Solutions</h4>
+            </Link>
+            <hr />
             <Link to="/work">
               <h4>Work</h4>
             </Link>
@@ -59,8 +63,21 @@ const SideNav = () => {
               <h4>About</h4>
             </Link>
             <hr />
+            <Link to="/about">
+              <h4>Resources</h4>
+            </Link>
+            <hr />
             <Link to="/contact">
               <h4>Contact</h4>
+            </Link>
+            <hr />
+            <Link>
+              <i class="fas fa-phone-alt"></i>
+              <span>866-978-2220</span>
+            </Link>
+            <hr />
+            <Link>
+              <button>ESTIMATE PROJECT</button>
             </Link>
           </div>
         </div>

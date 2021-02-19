@@ -48,6 +48,24 @@
         h6 {
           color: black;
         }
+        span {
+          margin-left: 10px;
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+      button {
+        padding: 0.85em 1em;
+
+        text-align: center;
+        font-size: 15px !important;
+        font-weight: 700;
+        letter-spacing: 0.1em !important;
+
+        color: #fff;
+        background-color: #eb8735;
+        border: none;
+        border-radius: 5px;
       }
     }
   }
