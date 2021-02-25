@@ -1,0 +1,141 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+
+  .closeButton {
+    margin-left: 92%;
+    margin-top: 50px;
+    background-color: transparent;
+    border: none;
+    img {
+      color: white;
+      height: 30px;
+      width: 30px;
+    }
+  }
+  .modal {
+    background-color: white;
+    text-align: center;
+    width: 550px;
+
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    h2 {
+      font-size: 28px !important;
+      font-weight: 700;
+      line-height: 1.342em;
+    }
+    p {
+      font-size: 16px !important;
+      line-height: 1.7;
+      margin-bottom: 1em;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-around;
+      input {
+        height: 60px;
+        width: 49%;
+        margin-top: 10px;
+      }
+    }
+    input {
+      height: 60px;
+      width: 100%;
+      margin-top: 10px;
+
+      font-size: 19px;
+      padding: 1.3em 0.6em;
+      background: #fff;
+      color: #0a0a0a;
+      font-weight: 300;
+      line-height: 1.4em;
+      border-radius: 3px;
+      border: 1px solid #b0bbca;
+      border-bottom: 2px solid #b0bbca;
+    }
+    input:nth-child(5) {
+      height: 90px !important;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 1.3em 0.6em;
+      width: 100% !important;
+      font-size: 15px;
+      font-weight: 700;
+      background: #5174fd !important;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+
+  .closeButton {
+    margin-left: 65%;
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+    img {
+      color: white;
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .modal {
+    background-color: white;
+    text-align: center;
+    width: 67%;
+    margin-top: 100px;
+    margin-left: 25px;
+    padding: 20px;
+    border-radius: 5px;
+    h2 {
+      font-size: 28px !important;
+      font-weight: 700;
+      line-height: 1.342em;
+    }
+    p {
+      font-size: 16px !important;
+      line-height: 1.7;
+      margin-bottom: 1em;
+    }
+
+    input {
+      height: 60px;
+      width: 100%;
+      margin-top: 10px;
+
+      font-size: 19px;
+      padding: 1.3em 0.6em;
+      background: #fff;
+      color: #0a0a0a;
+      font-weight: 300;
+      line-height: 1.4em;
+      border-radius: 3px;
+      border: 1px solid #b0bbca;
+      border-bottom: 2px solid #b0bbca;
+    }
+    input:nth-child(5) {
+      height: 90px !important;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 1.3em 0.6em;
+      width: 100% !important;
+      font-size: 15px;
+      font-weight: 700;
+      background: #5174fd !important;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+    }
+  }
+}

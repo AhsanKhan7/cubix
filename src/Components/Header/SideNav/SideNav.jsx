@@ -1,10 +1,20 @@
 import React, { useState } from "react";
 import styles from "./SideNav.module.scss";
 
+import EstimateModal from "../../EstimateModal/EstimateModal";
 import { Link } from "react-router-dom";
 
 const SideNav = () => {
   const [SideNavOpen, setSideNavOpen] = useState(false);
+
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <div className={styles.sideNav}>
@@ -77,11 +87,13 @@ const SideNav = () => {
             </Link>
             <hr />
             <Link>
-              <button>ESTIMATE PROJECT</button>
+              <button onClick={handleOpen}>ESTIMATE PROJECT</button>
             </Link>
           </div>
         </div>
       )}
+
+      <EstimateModal open={open} handleClose={handleClose} />
     </div>
   );
 };

@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./header.module.scss";
 import { Link } from "react-router-dom";
 
+import EstimateModal from "../EstimateModal/EstimateModal";
+
 const Header = () => {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={styles.header}>
       <div>
@@ -52,9 +63,11 @@ const Header = () => {
         </section>
 
         <section>
-          <button>ESTIMATE PROJECT</button>
+          <button onClick={handleOpen}>ESTIMATE PROJECT</button>
         </section>
       </div>
+
+      <EstimateModal open={open} handleClose={handleClose} />
     </div>
   );
 };

@@ -62,7 +62,9 @@ const Tabs = () => {
         <Nav tabs className={styles.tabNav}>
           <NavItem>
             <NavLink
-              //   className={classnames({ active: activeTab === "1" })}
+              className={classnames({
+                active: activeTab === "1",
+              })}
               className={styles.tabNavLink}
               onClick={() => {
                 toggle("1");
