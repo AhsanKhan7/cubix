@@ -77,10 +77,11 @@
   /* phones */
 
   .closeButton {
-    margin-left: 65%;
+    margin-left: 85%;
     margin-top: 30px;
     background-color: transparent;
     border: none;
+
     img {
       color: white;
       height: 30px;
@@ -91,9 +92,8 @@
   .modal {
     background-color: white;
     text-align: center;
-    width: 67%;
-    margin-top: 100px;
-    margin-left: 25px;
+    width: 95%;
+    margin: 70px auto 0 auto;
     padding: 20px;
     border-radius: 5px;
     h2 {

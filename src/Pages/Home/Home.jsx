@@ -230,7 +230,7 @@ const Home = () => {
       {/* testimonail */}
       <Testimonial />
       {/* tabs */}
-      <Tabs />
+      {/* <Tabs /> */}
       {/* awards */}
       <Awards />
       {/* partners */}

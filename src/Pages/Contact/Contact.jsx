@@ -2,15 +2,9 @@ import React from "react";
 import styles from "./Contact.module.scss";
 import { Link } from "react-router-dom";
 
-import Header from "../../Components/Header/Header";
-import SideNav from "../../Components/Header/SideNav/SideNav";
-import Footer from "../../Components/Footer/Footer";
-
 const Contact = () => {
   return (
     <div className={styles.contact}>
-      <Header />
-      <SideNav />
       <div className={styles.section1}>
         <img
           src="https://www.cubix.co/themes/responsiv-clean/assets/images/contact/headquarter.svg"
@@ -55,7 +49,6 @@ const Contact = () => {
           <button>submit</button>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
