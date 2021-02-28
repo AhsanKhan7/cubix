@@ -22,7 +22,7 @@ const Home = () => {
       <SideNav />
       <section className={styles.frontBanner}>
         <section>
-          <img src={FrontPic1} />
+          <img src={FrontPic1} alt="pic" />
         </section>
         <section className={styles.frontText}>
           <h1>
@@ -113,28 +113,28 @@ const Home = () => {
         </section>
         <section className={styles.home2Features}>
           <section className={styles.home2FeaturesDesc}>
-            <img src={phone} />
+            <img src={phone} alt="pic" />
             <h4>
               App
               <br /> Development
             </h4>
           </section>
           <section className={styles.home2FeaturesDesc}>
-            <img src={game} />
+            <img src={game} alt="pic" />
             <h4>
               Game
               <br /> Development
             </h4>
           </section>
           <section className={styles.home2FeaturesDesc}>
-            <img src={web} />
+            <img src={web} alt="pic" />
             <h4>
               Web
               <br /> Development
             </h4>
           </section>
           <section className={styles.home2FeaturesDesc}>
-            <img src={blockchain} />
+            <img src={blockchain} alt="pic" />
             <h4>
               Blockchain
               <br /> Development
@@ -230,7 +230,7 @@ const Home = () => {
       {/* testimonail */}
       <Testimonial />
       {/* tabs */}
-      {/* <Tabs /> */}
+      <Tabs />
       {/* awards */}
       <Awards />
       {/* partners */}

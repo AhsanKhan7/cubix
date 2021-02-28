@@ -280,11 +280,9 @@
         text-align: center;
         background-color: rgba(0, 0, 0, 0.5);
 
-        margin-top: -500px !important;
         h1 {
           margin: auto;
-          margin-top: 150px;
-          // width: 60%;
+          margin-top: 100px;
           color: #fff;
           font-size: 45px;
           font-weight: 700;
@@ -301,7 +299,7 @@
       }
     }
     .serviceProgress {
-      margin-top: 100px;
+      margin-top: 600px;
       .serviceProgressSection1 {
         text-align: center;
         margin-bottom: 50px;
@@ -316,7 +314,7 @@
           line-height: 1.285em;
         }
         p:nth-child(3) {
-          width: 80% !important;
+          width: 95% !important;
           line-height: 1.7;
           font-size: 1.2em;
           margin: auto;
@@ -329,7 +327,8 @@
         margin: auto;
         section {
           width: 100%;
-          padding: 30px 5%;
+          height: 200px;
+          padding: 70px 5%;
           box-shadow: 0 25px 70px rgb(243, 243, 243);
           margin-bottom: 10px;
           h1 {
@@ -342,16 +341,15 @@
       }
     }
     .serviceProjects {
-      margin-top: 100px;
+      margin-top: 150px;
       margin-bottom: 200px;
 
       .serviceProject1 {
         display: flex;
         flex-direction: column-reverse;
+        text-align: left;
+        padding-left: 10px;
         .serviceProject1_1 {
-          // width: 50%;
-          // padding: 0 80px;
-
           h1 {
             color: #e6e6e6;
             font-size: 60px;
@@ -378,21 +376,20 @@
           }
         }
         .serviceProject1_2 {
-          width: 50%;
-          height: 20vh;
+          margin-left: -10px;
           img {
             height: 100%;
-            max-width: 100%;
+            width: 100%;
           }
         }
       }
       .serviceProject2 {
         display: flex;
-        margin-top: 50px;
+        flex-direction: column;
+        margin-top: 150px;
+        text-align: left;
+        padding-left: 10px;
         .serviceProject2_1 {
-          width: 50%;
-          padding: 0 80px;
-
           h1 {
             color: #e6e6e6;
             font-size: 60px;
@@ -419,21 +416,20 @@
           }
         }
         .serviceProject2_2 {
-          width: 50%;
-          height: 20vh;
+          margin-left: -10px;
           img {
             width: 100%;
-            height: 100vh;
+            height: 100%;
           }
         }
       }
       .serviceProject3 {
         display: flex;
-        margin-top: 50px;
+        flex-direction: column-reverse;
+        margin-top: 150px;
+        text-align: left;
+        padding-left: 10px;
         .serviceProject3_1 {
-          width: 50%;
-          padding: 0 80px;
-
           h1 {
             color: #e6e6e6;
             font-size: 60px;
@@ -460,20 +456,21 @@
           }
         }
         .serviceProject3_2 {
-          width: 50%;
-          height: 20vh;
+          margin-left: -10px;
           img {
-            height: 100vh;
+            width: 100%;
+            height: 100%;
           }
         }
       }
       .serviceProject4 {
         display: flex;
-        margin-top: 65px;
-        .serviceProject4_1 {
-          width: 50%;
-          padding: 0 80px;
+        flex-direction: column;
+        margin-top: 150px;
+        text-align: left;
+        padding-left: 10px;
 
+        .serviceProject4_1 {
           h1 {
             color: #e6e6e6;
             font-size: 60px;
@@ -500,11 +497,10 @@
           }
         }
         .serviceProject4_2 {
-          width: 50%;
-          height: 20vh;
+          margin-left: -10px;
           img {
             width: 100%;
-            height: 100vh;
+            height: 100%;
           }
         }
       }

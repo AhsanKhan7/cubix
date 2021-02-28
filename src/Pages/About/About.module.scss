@@ -14,7 +14,7 @@
       padding-left: 6%;
       padding-top: 15%;
       background-color: rgba(0, 0, 255, 0.3);
-      height: 107vh;
+      height: 110vh;
       h1 {
         margin-bottom: 30px;
         color: white;
@@ -290,29 +290,26 @@
   .about {
     .aboutVideo {
       video {
-        // height: 100vh !important;
+        height: 100%;
         width: 100%;
       }
     }
     .aboutVideoText {
       position: absolute;
       margin-top: -210px;
-      // top: 0%;
-      // padding-left: 6%;
-      // padding-top: 15%;
+      padding-left: 10px;
+      padding-top: 10px;
       background-color: rgba(0, 0, 255, 0.3);
-      // height: 107vh;
+      height: 32vh;
       h1 {
-        // margin-bottom: 30px;
         color: white;
         font-size: 25px;
         font-weight: 600;
       }
 
       p {
-        // margin-bottom: 30px;
         color: white;
-        font-size: 16px;
+        font-size: 12px;
         width: 90%;
       }
       button {
@@ -320,7 +317,7 @@
         background-color: #f88379 !important;
         border: none;
         border-radius: 7px;
-        padding: 15px 40px;
+        padding: 8px 20px;
         letter-spacing: 0.1em;
         font-size: 0.8em;
         font-weight: 700;
@@ -339,57 +336,54 @@
       .aboutText {
         display: block;
         justify-content: space-around;
+        text-align: center;
 
         section:nth-child(1) {
           img {
-            width: 70%;
-            height: 250px;
+            width: 95%;
+            height: 100%;
           }
         }
         section:nth-child(2) {
           // margin-left: 40px;
-          // margin-top: -30px;
+          margin-top: 30px;
           h6 {
             color: #03b4ff;
             text-transform: none;
             font-size: 20px;
             line-height: 1.5;
-            margin-bottom: 1.3em;
           }
           h3 {
             color: #000000;
-            padding-right: 3rem !important;
             font-size: 25px;
             font-weight: 600;
             line-height: 1.35em;
           }
-
           p {
-            width: 100%;
+            margin: 0 auto;
+            width: 95%;
             line-height: 1.7;
           }
         }
       }
+
       .aboutHistory {
         display: block;
         justify-content: space-around;
         text-align: center;
-        margin-left: -60px;
-        margin-top: 50px;
-        margin-bottom: 50px;
         div {
           display: block;
 
           h3 {
             color: #03b4ff;
             text-align: center !important;
-            font-size: 35px;
+            font-size: 40px;
             font-weight: 700;
             line-height: 1em;
           }
           p {
             color: #000 !important;
-            font-size: 14px !important;
+            font-size: 17px !important;
             letter-spacing: 0.2em !important;
             line-height: 1.5em;
           }
@@ -398,12 +392,13 @@
     }
     .aboutRapid {
       display: block;
-      height: 130vh;
+      height: 100%;
       background: linear-gradient(to right, #0bccee 0, #ac1de1 100%) !important;
 
       div {
         margin-left: auto !important;
         margin: auto;
+        padding-top: 20px;
         text-align: center;
         display: block;
 
@@ -412,12 +407,12 @@
           color: #fff;
           font-size: 30px !important;
           font-weight: 700;
-          margin-left: -30px;
           margin-top: 20px;
         }
         p {
-          width: 80%;
+          width: 95%;
           color: #fff;
+          margin: 0 auto;
           line-height: 1.7;
           font-size: 1.2em;
         }
@@ -440,15 +435,15 @@
         font-size: 1.2em;
         margin-bottom: 1.3em;
       }
-      img {
-        // width: 100%;
-        // height: 250px;
+      .aboutPic {
+        width: 100%;
+        height: 100%;
       }
       .aboutPicsDiv {
-        display: block;
-        text-align: left;
+        // display: block;
+        // text-align: left;
         .picText {
-          display: flex;
+          // display: flex;
         }
 
         .aboutPicsDiv1 {
@@ -474,19 +469,18 @@
         }
       }
     }
+
     .mediaMention {
-      height: 85vh;
+      height: 130vh;
       text-align: center;
       margin-top: 50px;
       padding-top: 30px;
       background: #f4f5f8 !important;
 
       h2 {
-        margin-bottom: 10px !important;
         font-size: 25px;
         font-weight: 700;
         line-height: 1.285em;
-        margin: 1.25em 0 0.75em;
       }
       p {
         line-height: 1.7;
@@ -498,14 +492,15 @@
         justify-content: space-around;
 
         section {
-          margin-top: 20px;
+          margin: 20px auto 0 auto;
+          padding: 10px;
           background-color: white;
-          width: 100%;
-          height: 150px;
+          width: 90%;
+          height: 100%;
 
           img {
-            // margin-top: 30px;
-            // margin-bottom: 10px;
+            height: 100%;
+            width: 100%;
           }
           h5 {
             width: 100%;
@@ -519,9 +514,10 @@
       }
     }
     .ceoPic {
+      margin-top: 100px;
       img {
         width: 100%;
-        height: 40vh;
+        height: 100%;
       }
     }
     .headQuater {
@@ -542,11 +538,11 @@
       }
     }
     .headQuaterPic {
-      display: block;
+      display: flex;
       justify-content: center;
       img {
         width: 100%;
-        height: 130px;
+        height: 100%;
       }
     }
     .liveOffice {

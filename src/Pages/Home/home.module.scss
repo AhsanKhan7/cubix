@@ -318,7 +318,8 @@
     }
 
     .home2 {
-      height: 150vh;
+      height: 100%;
+      padding-bottom: 50px;
       background: linear-gradient(to right, #0bccee 0, #ac1de1 100%) !important;
 
       .home2Text {
@@ -337,6 +338,7 @@
         display: grid !important;
         grid-template-columns: repeat(2, 180px);
         width: 100%;
+
         .home2FeaturesDesc {
           text-align: center;
           img {

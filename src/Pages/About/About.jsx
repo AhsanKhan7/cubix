@@ -137,6 +137,7 @@ const About = () => {
         <div className={styles.aboutPicsDiv}>
           <div className={styles.aboutPicsDiv1}>
             <img
+              className={styles.aboutPic}
               src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/cubix-family-768x538.jpg"
               alt="Setup Ave"
             />
@@ -159,6 +160,7 @@ const About = () => {
           </div>
           <div className={styles.aboutPicsDiv2}>
             <img
+              className={styles.aboutPic}
               src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/about-cubix-side.jpg"
               alt="Setup Ave"
             />
@@ -178,17 +180,26 @@ const About = () => {
           <p>We stay in the news for our incredible tech achievements.</p>
           <div className={styles.mediaMentionDiv}>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/yahoo-logo.svg" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/yahoo-logo.svg"
+                alt="pic"
+              />
               <h5>There's finally a dating app for people with disabilities</h5>
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/BuzzFeed-logo.svg" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/BuzzFeed-logo.svg"
+                alt="pic"
+              />
               <h5>
                 A new app just launched to make online dating more inclusive...
               </h5>
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/mashable-logo.svg" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/mashable-logo.svg"
+                alt="pic"
+              />
               <h5>
                 This startup helps you donate to charity when you see an
                 infuriating tweeet
@@ -198,7 +209,10 @@ const About = () => {
         </div>
 
         <div className={styles.ceoPic}>
-          <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/salman-lakhani-ceo-cubixinc.jpg" />
+          <img
+            src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/salman-lakhani-ceo-cubixinc.jpg"
+            alt="pic"
+          />
         </div>
 
         <div className={styles.headQuater}>
@@ -212,36 +226,66 @@ const About = () => {
 
           <div className={styles.headQuaterPic}>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/politico.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/politico.png"
+                alt="pic"
+              />
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/bigfish-logo.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/bigfish-logo.png"
+                alt="pic"
+              />
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/walmart.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/walmart.png"
+                alt="pic"
+              />
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/tissot-logo-1.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/tissot-logo-1.png"
+                alt="pic"
+              />
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/sapient-logo-1.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/sapient-logo-1.png"
+                alt="pic"
+              />
             </section>
           </div>
           <div className={styles.headQuaterPic}>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/dreamworks-logo.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/dreamworks-logo.png"
+                alt="pic"
+              />
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/canon-logo-1.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/canon-logo-1.png"
+                alt="pic"
+              />
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/datastream.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/datastream.png"
+                alt="pic"
+              />
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/artizone-logo.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/artizone-logo.png"
+                alt="pic"
+              />
             </section>
             <section>
-              <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/whitecastle-logo.png" />
+              <img
+                src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/whitecastle-logo.png"
+                alt="pic"
+              />
             </section>
           </div>
         </div>
