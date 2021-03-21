@@ -4,9 +4,9 @@ import styles from "./Awards.module.scss";
 const Awards = () => {
   return (
     <>
-      <section className={styles.awards}>
+      <div className={styles.awards}>
         <h1>Awards & recognitions</h1>
-        <section className={styles.awardCards}>
+        <div className={styles.awardCards}>
           <section>
             <img
               src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/forbes-technologies-cource1.webp"
@@ -43,8 +43,8 @@ const Awards = () => {
             <h5>Top mobile application developers</h5>
             <p>Top rated app developement company in 2020</p>
           </section>
-        </section>
-      </section>
+        </div>
+      </div>
     </>
   );
 };
