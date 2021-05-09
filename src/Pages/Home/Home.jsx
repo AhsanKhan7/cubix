@@ -1,12 +1,10 @@
 import React from "react";
 import styles from "./home.module.scss";
 import FrontPic1 from "../../Assets/frontPic1.jpg";
-
 import phone from "../../Assets/smartphone.svg";
 import game from "../../Assets/game.svg";
 import web from "../../Assets/web.svg";
 import blockchain from "../../Assets/blockchain.svg";
-
 import Testimonial from "../../Components/Testimonial/Testimonial";
 import Awards from "../../Components/Awards/Awards";
 import Partners from "../../Components/Partners/Partners";
@@ -14,17 +12,17 @@ import Tabs from "../../Components/Tabs/Tabs";
 import Header from "../../Components/Header/Header";
 import SideNav from "../../Components/Header/SideNav/SideNav";
 import Footer from "../../Components/Footer/Footer";
-
+import ParticleBackground from "../../Partilces.js/ParticleBackground";
 const Home = () => {
   return (
     <div className={styles.home}>
       <Header />
       <SideNav />
       <section className={styles.frontBanner}>
-        <section>
-          <img src={FrontPic1} alt="pic" />
-        </section>
         <section className={styles.frontText}>
+          <div style={{ position: "absolute" }}>
+            <ParticleBackground />
+          </div>
           <h1>
             Revolutionizing
             <br /> enterprises digitally{" "}
@@ -36,7 +34,7 @@ const Home = () => {
           </p>
           <button>LET'S TALK</button>
         </section>
-        <section className={styles.frontAwards}>
+        {/* <section className={styles.frontAwards}>
           <section className={styles.frontAwards1}>
             <ul>
               <li>
@@ -99,7 +97,7 @@ const Home = () => {
               </li>
             </ul>
           </section>
-        </section>
+        </section> */}
       </section>
 
       {/* end front banner */}
